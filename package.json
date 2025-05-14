@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "name": "easymodder",
+    "version": "1.0.0",
+    "description": "Minecraft modpacks made easy",
+    "main": "index.html",
+    "scripts": {
+        "build": "npx @tailwindcss/cli -i ./index.pcss -o ./index.css -m",
+        "dev": "npx @tailwindcss/cli -i ./index.pcss -o ./index.css -w"
+    },
+    "keywords": [],
+    "author": "Vitor Mac",
+    "license": "MIT",
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.6",
+        "tailwindcss": "^4.1.6"
+    }
+}

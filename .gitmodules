@@ -1,0 +1,3 @@
+[submodule "zipstore.js"]
+	path = zipstore.js
+	url = https://github.com/listanegra/zipstore.js.git
