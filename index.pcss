@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+html {
+    @apply h-full text-white;
+    @apply select-none tracking-widest;
+
+    font-family: 'Courier New', monospace;
+}
+
+body {
+    @apply h-full bg-[#253545];
+    @apply flex items-center justify-center;
+
+    button {
+        @apply px-2 py-4;
+        @apply border-white/40 border-2;
+        @apply cursor-pointer outline-none;
+        
+        &:hover {
+            @apply bg-white/20;
+        }
+    }
+
+    > main {
+        @apply flex flex-col;
+        @apply space-y-4;
+
+        > div:first-child {
+            @apply text-6xl;
+        }
+    }
+}
